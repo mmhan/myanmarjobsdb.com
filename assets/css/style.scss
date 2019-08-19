@@ -1,0 +1,26 @@
+---
+---
+
+// Text
+$section-headings-color: #335588 !default;
+$body-text-color: #606c71 !default;
+$body-link-color: #335588 !default;
+$blockquote-text-color: #819198 !default;
+
+@import "{{ site.theme }}";
+
+@import url(//fonts.googleapis.com/earlyaccess/notosansmyanmarui.css);
+
+body{
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, 'Noto Sans Myanmar UI', sans-serif;
+}
+
+.page-header{
+  background: rgb(51,85,136);
+  background: linear-gradient(180deg, rgba(51,85,136,1) 54%, rgba(34,57,92,1) 85%);
+}
+
+.site-footer{
+  background: rgb(51,85,136);
+  background: linear-gradient(180deg, rgba(51,85,136,1) 54%, rgba(34,57,92,1) 85%);
+}
